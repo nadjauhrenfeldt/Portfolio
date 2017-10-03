@@ -107,7 +107,7 @@ li.dropdown {
 .nadjauhrenfeldt {
 	float: right;
 	margin-top: 50px;
-	margin-right: 25px;
+	margin-right: 155px;
 }
 
 .lv {
@@ -116,7 +116,28 @@ li.dropdown {
 	margin-left: 160px;
 }
 
-/*Redigering overskrifter*/
+/*Redigering på siden p1*/
+.portfolio-xd {
+	float: right;
+	margin-top: 25px;
+	margin-right: 140px;
+}
+
+/*Redigering på siden p2*/
+.portfolio-dw {
+	float: right;
+	margin-top: 25px;
+	margin-right: 140px;
+}
+
+/*Redigering på siden Kontakt*/
+.kontaktinfo {
+	float: bottom;
+	margin-left: 150px;
+	margin-top: 30px;  
+}
+
+/* Redigering alle overskrifter */
 .h1 {
 	margin-top: 25px;
 	margin-left: 160px;
@@ -135,7 +156,7 @@ li.dropdown {
 	font-size: 20px;
 }
 
-/*Redigering tekster*/
+/*Redigering alle tekster*/
 .tekst-om-mig {
 	margin-top: 20px;
 	margin-left: 160px;
@@ -168,14 +189,7 @@ li.dropdown {
 	margin-left: 160px;
 }
 
-/*Redigering på siden Kontakt*/
-.kontaktinfo {
-	float: bottom;
-	margin-left: 50px;
-	margin-top: 30px;  
-}
-
-/* Footer*/
+/* Footer */
 .footer {
 	position: absolute;
 	right: 0;
@@ -195,5 +209,5 @@ li.dropdown {
 .instagram{
 	width:25px;
 	height:25px;
-	margin-right: 10px;
+	margin-right: 135px;
 }
