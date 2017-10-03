@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+} 
+
+/* Headlines of all pages */
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+} 
+
+/* Background Picture 'Hjem' */
+body.index {
+	background-image: url(images/background.jpg);
+	background-attachment: fixed;
+	background-position: 0px 35px;
+	background-size: cover;	
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+/* Background Picture 'Kontakt' */
+body.kontakt {
+	background-image: url(images/kontakt.jpg);
+	background-attachment: fixed;
+	background-size: cover;	
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+/* Main navigation - dropdown */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+li {
+    float: left;
+	text-align: center;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li {
+	display: block;
+	float: left;
+	width: 25%; 
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    /*background-color: red;*/
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	text-align: center;
+	float: left;
+	width: 25%;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Redigering på index */
+.logoindex {
+	float: bottom;
+	margin-left: 25px;
+	margin-top: 460px;  
+}
+
+/*Redigering på siden Om mig*/
+.nadjauhrenfeldt {
+	float: right;
+	margin-top: 50px;
+	margin-right: 25px;
+}
+
+.lv {
+	float: left;
+	margin-top: 25px;
+	margin-left: 160px;
+}
+
+/*Redigering overskrifter*/
+.h1 {
+	margin-top: 25px;
+	margin-left: 160px;
+	font-size: 30px;
+}
+
+.h2 {
+	margin-top: 15px;
+	margin-left: 160px;
+	font-size: 20px;
+}
+
+.h3 {
+	margin-top: 25px;
+	margin-left: 160px;
+	font-size: 20px;
+}
+
+/*Redigering tekster*/
+.tekst-om-mig {
+	margin-top: 20px;
+	margin-left: 160px;
+}
+
+.tekst-xd {
+	margin-top: 20px;
+	margin-left: 160px;
+}
+
+.tekst-dw {
+	margin-top: 20px;
+	margin-left: 160px;
+}
+
+
+/* Knapper */
+.button {
+    background-color: #CFCFCF;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	margin-top: 20px;
+	margin-left: 160px;
+}
+
+/*Redigering på siden Kontakt*/
+.kontaktinfo {
+	float: bottom;
+	margin-left: 50px;
+	margin-top: 30px;  
+}
+
+/* Footer*/
+.footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 14px 16px;
+	
+	text-align: right;
+}
+
+.linkedin{
+	width:25px;
+	height:25px;
+	margin-right: 10px;
+}
+
+.instagram{
+	width:25px;
+	height:25px;
+	margin-right: 10px;
+}
