@@ -10,10 +10,13 @@
 
 /* Headlines of all pages */
 h1 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	font-size: 30px;
 	text-transform: uppercase;
 } 
+
+h2 {
+	font-size: 20px;
+}
 
 /* Background Picture 'Hjem' */
 body.index {
@@ -103,75 +106,50 @@ li.dropdown {
 	margin-top: 460px;  
 }
 
-/*Redigering på siden Om mig*/
+/* Redigering på siden Om mig */
 .nadjauhrenfeldt {
 	float: right;
-	margin-top: 50px;
-	margin-right: 155px;
+	margin-top: 40px;
+	margin-right: 150px;
 }
 
 .lv {
 	float: left;
-	margin-top: 25px;
-	margin-left: 160px;
+	margin-top: 20px;
+	width: 80%;
+	height: auto;
+	
 }
 
-/*Redigering på siden p1*/
+/* Redigering på siden p1 */
 .portfolio-xd {
 	float: right;
 	margin-top: 25px;
 	margin-right: 140px;
 }
 
-/*Redigering på siden p2*/
+/* Redigering på siden p2 */
 .portfolio-dw {
 	float: right;
-	margin-top: 25px;
+	margin-top: 30px;
 	margin-right: 140px;
 }
 
-/*Redigering på siden Kontakt*/
+/* Redigering på siden Kontakt */
 .kontaktinfo {
 	float: bottom;
 	margin-left: 150px;
 	margin-top: 30px;  
 }
 
-/* Redigering alle overskrifter */
-.h1 {
-	margin-top: 25px;
+/* Div redigering */
+.div-p {
+	margin-top: 30px;
 	margin-left: 160px;
-	font-size: 30px;
+	width: 40%; 
+	position: relative;
+	text-align: justify;
 }
-
-.h2 {
-	margin-top: 15px;
-	margin-left: 160px;
-	font-size: 20px;
-}
-
-.h3 {
-	margin-top: 25px;
-	margin-left: 160px;
-	font-size: 20px;
-}
-
-/*Redigering alle tekster*/
-.tekst-om-mig {
-	margin-top: 20px;
-	margin-left: 160px;
-}
-
-.tekst-xd {
-	margin-top: 20px;
-	margin-left: 160px;
-}
-
-.tekst-dw {
-	margin-top: 20px;
-	margin-left: 160px;
-}
-
 
 /* Knapper */
 .button {
